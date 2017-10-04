@@ -1,0 +1,41 @@
+{
+  "name": "nfg",
+  "version": "1.0.0",
+  "description": "Wrapper around npm cli tools to install dependencies from git",
+  "bin": {
+    "nfg": "./cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevingimbel/nfg.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "tools",
+    "git"
+  ],
+  "author": "Kevin Gimbel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevingimbel/nfg/issues"
+  },
+  "homepage": "https://github.com/kevingimbel/nfg#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "main": "cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
+}

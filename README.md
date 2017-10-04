@@ -1,6 +1,9 @@
 # `nfg`
-> node from git
-## Install Node modules from GitHub using `npm` under the hood.
+> Install Node modules from GitHub using `npm` under the hood.
+
+[![Build Status](https://travis-ci.org/kevingimbel/nfg.svg?branch=master)](https://travis-ci.org/kevingimbel/nfg)
+
+`nfg` (_node from git_) is a wrapper around the npm package manager to install node packages from GitHub.com
 
 ## Install
 
